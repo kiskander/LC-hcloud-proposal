@@ -12,7 +12,7 @@ New Learning content built to walk through the journey. Curriculum that is tailo
 - Cross Platform integration to focus on API utilization 
 - Third party open source tooling should be incorporated as part of the learning process
 - Content to tell the use case from soup to nuts
-- Content to be built in a modular format to resinate to different DevOps personas (Dev, SRE, Ops)
+- Content to be built in a modular format to resonate to different DevOps personas (Dev, SRE, Ops)
 
 
 ## Cisco Hybrid Cloud Vade Mecum
