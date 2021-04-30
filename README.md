@@ -4,7 +4,7 @@
 ## Challenge 
 Cisco's Hybrid Cloud is about enabling Cisco customers to created extraordinary experiences by fusing the best of cloud and on-premises.
 
-DevOps Engineers working on defining and deploying Cisco's Hybrid Cloud solution are faced with needing to know specialized information. DevOps consists of a multitude of personas: Developers who's focus is application planning, design and deployment. Site Reliability Engineers who's tasked with efficiently manage systems, solve problems, and automate operations that caters for developer's needs and Operation teams who architect and build infrastructer to allow for it all.
+DevOps Engineers working on defining and deploying Cisco's Hybrid Cloud solution are faced with needing to know specialized information. DevOps consists of a multitude of personas: Developers who's focus is application planning, design and deployment. Site Reliability Engineers who's tasked with efficiently manage systems, solve problems, and automate operations that caters for developer's needs and Operation teams who architect and build infrastructure to allow for it all.
 
 With the on going need for DevOps Engineers in the market, our customers need the ability to learn and understand Cisco's product offering that pertains to our Hybrid Cloud story. 
 The current issue we are facing is the learning content is tailors to a specific persona and focused on single Cisco product. There is no course around the entire use case to answer questions like "How does Hashicorp Terraform work and why do i care for it from a Cisco Perspective?" or "why should I care about Kubernetes?" 
@@ -19,7 +19,7 @@ New Learning content built to walk through the journey. The expectation is to sp
 - Cross Platform integration to focus on API utilization 
 - Third party open source tooling should be incorporated as part of the learning process
 - Content to tell the use case from soup to nuts
-- Content to be built in a modular format to resinate to different DevOps personas (Dev, SRE, Ops)
+- Content to be built in a modular format to resonate to different DevOps personas (Dev, SRE, Ops)
 - Check points and Badges incorporated
 
 
@@ -41,7 +41,7 @@ The course is designed to deliver the information in pieces and to keep building
 
 **Introduction to DNS Global Site Load Balancing** One concept that needs to be taught that's important in the hybrid cloud world is DNSGSL, how do you tell traffic to go where when you have have redundant deployment of your application. DNS Global Site load balance like Hashicrop Console or something similar can be a focus here. 
 
-**Getting Started with Terraform** This section of the course is a big topic area that should be focused on. Terraform allows for seamless deployment of hybrid cloud. When talking about Terraform we need to focus on the HCL as a language, teach the syntax as well as the usability of Terraform + configuration. This should be a hands on , follow the instructor kind of low code session. we should also touch on how this ties in with Cisco and its products as it will be a good segway into the next topics 
+**Getting Started with Terraform** This section of the course is a big topic area that should be focused on. Terraform allows for seamless deployment of hybrid cloud. When talking about Terraform we need to focus on the HCL as a language, teach the syntax as well as the usability of Terraform + configuration. This should be a hands on , follow the instructor kind of low code session. we should also touch on how this ties in with Cisco and its products as it will be a good segue into the next topics 
 
 **Deep dive into Private Cloud components** Here is where Cisco is a key player in hybrid cloud. this is where we start talking about Intersight and its features. this portion of the course should focus on topics like: What is Intersight (Tour du Monde), Why is it a key player in cloud Orchestration? 
 We then deep dive on the key features of Intersight that allows for hybrid cloud integration things like Intersight Assist, IKS .. etc  Deep diving into this content should cover deployment, configuration. 
@@ -49,7 +49,7 @@ We then deep dive on the key features of Intersight that allows for hybrid cloud
 **Deep dive into Public Cloud components (AWS focused)** Although this is not Cisco, Public cloud providers is considered an integration point with Cisco Intersight, therefor it is important to talk about the different components that are at play from a Public cloud perspective. Understand EKS for example, VPC configuration to allow traffic between the different cloud instances and Security. This can easily be consumed from third party content creators and leveraged as part of this course 
 
 ## Content
-Presonas - `|Dev|SRE|OPS|` 
+Personas - `|Dev|SRE|OPS|` 
 
 Platforms - (C)isco  (T)hird Party (Udemy, Codeacademy ...etc)
 #### Course Core
