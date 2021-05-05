@@ -17,7 +17,7 @@ DevOps Engineers working on defining and deploying Cisco's Hybrid Cloud solution
 2) Site Reliability Engineers who are tasked with efficiently managing systems, solving problems, and automating operations that cater for developer's needs
 3) Operation teams who architect and build infrastructure to allow for it all.
 
-Current State: 
+*Current State*: 
 
 With the DevOps Engineering role growing in the market, our customers need the ability to learn and understand Cisco's product offerings that pertain to our Hybrid Cloud story. 
 
