@@ -1,0 +1,65 @@
+{
+  "labId": "intersight-02-ist-vm-automation",
+  "title": "Provisioning VMs using Intersight Terraform Service for Hashicorp",
+  "slug": "In this Lab, you will be using Terraform Cloud to execute a Terraform plan/apply through the Terraform+Intersight Cloud Agent leveraging Terraform Assist to provision VMs to VMWare vSphere",
+  "time": 30,
+  "byod": false,
+  "files":
+  [
+    {
+      "title": "Introduction",
+      "file":"0-intro.md"
+    },
+    {
+      "title": "Login to Terraform Cloud",
+      "file":"1-login-to-tf.md"
+    },
+    {
+      "title": "Access the Terraform Cloud Workspace",
+      "file":"2-tf-workspace.md"
+    },
+    {
+      "title": "Run the Terraform Plan",
+      "file":"3-tf-plan.md"
+    },
+    {
+      "title": "Run the Terraform Apply",
+      "file":"4-tf-apply.md"
+    }
+  ],
+  "tags":
+  [
+    {
+      "title": "intersight"
+    },
+    {
+      "title": "terraform"
+    },
+    {
+      "title": "cloud"
+    }
+  ],
+  "related":
+  [
+    {
+      "labId": "intersight-01-ist-introduction",
+      "title": "Intersight Service for Hashicorp Terraform"
+    },
+    {
+      "labId": "intersight-03-ist-hello-iks-introduction",
+      "title": "Intersight Service for Terraform - Hello IKS"
+    },
+    {
+      "labId": "intersight-04-ui-hello-iks-introduction",
+      "title": "Intersight Service for Terraform - UI and ClickOps"
+    }
+  ],
+  "authors":
+  [
+    {
+      "name": "Matthew DeNapoli",
+      "email": "mdenapol@cisco.com"
+    }
+  ],
+  "active": true
+}

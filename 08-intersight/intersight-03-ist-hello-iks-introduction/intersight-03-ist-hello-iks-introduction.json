@@ -1,0 +1,76 @@
+{
+  "labId": "intersight-03-ist-hello-iks-introduction",
+  "title": "Intersight Service for Terraform - Hello IKS",
+  "slug": "This lab will leverage IST to provision a Kubernetes cluster using Intersight Kubernetes Service (IKS) and also walk you through deploying a sample containerized application.",
+  "time": 30,
+  "byod": false,
+  "files":
+  [
+    {
+      "title": "Introduction",
+      "file":"0-intro.md"
+    },
+    {
+      "title": "Log in to Terraform Cloud",
+      "file":"1-login-to-tf.md"
+    },
+    {
+      "title": "Log in to Intersight",
+      "file":"2-login-to-intersight.md"
+    },
+    {
+      "title": "Execute TFCB plan to create IKS policies",
+      "file":"3-tf-plan-iks-policies.md"
+    },
+    {
+      "title": "Execute TFCB plan to create a IKS cluster",
+      "file":"4-tf-plan-iks-cluster.md"
+    },
+    {
+      "title": "Execute TFCB plan to deploy a sample app on the IKS cluster",
+      "file":"5-tf-plan-sample-app.md"
+    },
+    {
+      "title": "Terminating your sandbox",
+      "file":"6-sandbox-cleanup.md"
+    }
+  ],
+  "tags":
+  [
+    {
+      "title": "intersight"
+    },
+    {
+      "title": "terraform"
+    },
+    {
+      "title": "cloud"
+    },
+    {
+      "title": "iks"
+    }
+  ],
+  "related":
+  [
+    {
+      "labId": "intersight-01-ist-introduction",
+      "title": "Intersight Service for Hashicorp Terraform"
+    },
+    {
+      "labId": "intersight-02-ist-vm-automation",
+      "title": "Provisioning VMs using Intersight Terraform Service for Hashicorp"
+    },
+    {
+      "labId": "intersight-04-ui-hello-iks-introduction",
+      "title": "Intersight Service for Terraform - UI and ClickOps"
+    }
+  ],
+  "authors":
+  [
+    {
+      "name": "Prathima Janakiram",
+      "email": "prathjan@cisco.com"
+    }
+  ],
+  "active": true
+}

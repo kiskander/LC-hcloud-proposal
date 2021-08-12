@@ -1,0 +1,35 @@
+{
+	"items": [
+		{
+			"title": "Introduction to Kubernetes",
+			"content": "k8s-intro.md"
+		}
+	],
+	"meta": {
+		"byod": true,
+		"tags": [
+			{
+				"title": "Containers"
+			},
+			{
+				"title": "Kubernetes"
+			},
+			{
+				"title": "Orchestration"
+			}
+		],
+		"time": 15,
+		"authors": [
+			{
+				"name": "Matt Johnson",
+				"email": "matjohn2@cisco.com"
+			}
+		],
+		"slug": "Learn about Kubernetes, and why and how you can use it."
+	},
+	"config": {
+		"id": "containers-intro-kubernetes",
+		"sandbox": {},
+		"video": {}
+	}
+}

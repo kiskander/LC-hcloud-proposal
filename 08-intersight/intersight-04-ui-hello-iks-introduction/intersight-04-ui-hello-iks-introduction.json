@@ -1,0 +1,72 @@
+{
+  "labId": "intersight-04-ui-hello-iks-introduction",
+  "title": "Intersight Service for Terraform - UI and ClickOps",
+  "slug": "This lab walks you through the provisioning of an IKS cluster in Intersight using its UI and ClickOps.",
+  "time": 30,
+  "byod": false,
+  "files":
+  [
+    {
+      "title": "Introduction",
+      "file":"0-intro.md"
+    },
+    {
+      "title": "Use Intersight UI to provision IP Pool and Policies",
+      "file":"1-preprov.md"
+    },
+    {
+      "title": "Use Intersight UI to provision an IKS profile",
+      "file":"2-prov.md"
+    },
+    {
+      "title": "Use Intersight UI to configure IKS Add-ons",
+      "file":"3-addon.md"
+    },
+    {
+      "title": "Use Intersight UI to scale up the cluster",
+      "file":"4-scale.md"
+    },
+    {
+      "title": "Terminating the IKS cluster and Sandbox",
+      "file":"5-term.md"
+    }
+  ],
+  "tags":
+  [
+    {
+      "title": "intersight"
+    },
+    {
+      "title": "terraform"
+    },
+    {
+      "title": "cloud"
+    },
+    {
+      "title": "iks"
+    }
+  ],
+  "related":
+  [
+    {
+      "labId": "intersight-01-ist-introduction",
+      "title": "Intersight Service for Hashicorp Terraform"
+    },
+    {
+      "labId": "intersight-02-ist-vm-automation",
+      "title": "Provisioning VMs using Intersight Terraform Service for Hashicorp"
+    },
+    {
+      "labId": "intersight-03-ist-hello-iks-introduction",
+      "title": "Intersight Service for Terraform - Hello IKS"
+    }
+  ],
+  "authors":
+  [
+    {
+      "name": "Prathima Janakiram",
+      "email": "prathjan@cisco.com"
+    }
+  ],
+  "active": true
+}

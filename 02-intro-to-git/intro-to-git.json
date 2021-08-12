@@ -1,0 +1,33 @@
+{
+  "labId": "intro-to-git",
+  "title": "Introduction to Git",
+  "slug": "Learn the basics of git and how to clone an online repository to a local machine.",
+  "time": 10,
+  "byod": true,
+  "files": [
+    {"title": "Step 1. Intro to Git", "file":"1.md"},
+    {"title": "Step 2. Verify Your Git Installation", "file":"2.md"},
+    {"title": "Step 3. Clone A DevNet Repo", "file":"3.md"},
+    {"title": "Step 4. Use pull to Update the Local Repo", "file":"4.md"}
+  ],
+  "tags": [
+    {"title": "git"}
+  ],
+  "related": [
+    {
+       "labId": "intro-to-python-primer-1",
+       "title": "Python Primer Level 1"
+    },
+  {
+       "labId": "intro-to-python-primer-2",
+       "title": "Python Primer Level 2"
+    },
+    {
+      "labId": "intro-to-python-parsing-json",
+      "title": "Using Python to Parse JSON"
+    }
+  ],
+    "authors": [
+    {"name": "DevNet", "email": "devnet@cisco.com"}
+  ]
+}

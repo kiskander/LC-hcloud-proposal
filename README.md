@@ -1,4 +1,4 @@
-# Cisco Hybrid Cloud Content Breadboarding
+# Cisco Hybrid Cloud Content
 
 
 Cisco's Hybrid Cloud is about enabling Cisco customers to create extraordinary experiences by fusing the best of cloud and on-premises. Some things to keep in mind:
@@ -14,7 +14,9 @@ Need:
 DevOps Engineers working on defining and deploying Cisco's Hybrid Cloud solutions are faced with the need to know very specialized information. Within the DevOps group emerge three personas that we can target with specific learning opportunities.
 
 1) Developers whose focus is application planning, design and deployment. 
+
 2) Site Reliability Engineers who are tasked with efficiently managing systems, solving problems, and automating operations that cater for developer's needs
+
 3) Operation teams who architect and build infrastructure to allow for it all.
 
 *Current State*: 
@@ -73,7 +75,7 @@ We then deep dive on the key features of Intersight that allows for hybrid cloud
 * Introduction to Git, Gitlab, CICD `|Dev|SRE|OPS|` (C)(T)
 * Introduction to Containers `|Dev|SRE|OPS|` (C)(T)
 * Introduction to Kubernetes `|Dev|SRE|OPS|` (C)(T)
-* Introduction to DNS Global Site Load Balancing (Hashicorp Console?) `|Dev|SRE|OPS|` (C)(T)
+* Introduction to DNS Global Site Load Balancing (Hashicorp Consul) `|Dev|SRE|OPS|` (C)(T)
 * Getting Started with Terraform `|Dev|SRE|OPS|` (C)(T)
 * Deep dive into Private Cloud components `SRE|OPS|` (C)
    	- Cisco Intersight `|SRE|OPS|` (C)

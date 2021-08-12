@@ -1,0 +1,27 @@
+{
+    "labId": "containers-intro-kubernetes",
+    "title": "Introduction to Kubernetes",
+    "slug": "Learn about Kubernetes, and why and how you can use it.",
+    "time": "15",
+    "tags": [{
+      "title": "Containers"
+    }, {
+        "title": "Kubernetes"
+    }, {
+        "title": "Orchestration"
+    }],
+    "files": [{
+        "file": "k8s-intro.md",
+        "title": "Introduction to Kubernetes"
+    }],
+    "related": [{
+        "labId": "containers-deploy-to-k8s",
+        "title": "Kubernetes objects and deploying applications."
+    }],
+    "authors": [{
+        "name": "Matt Johnson",
+        "email": "matjohn2@cisco.com"
+        }],
+    "byod": true,
+    "active": true
+}

@@ -1,0 +1,35 @@
+{
+    "labId": "containers-intro-service-mesh",
+    "title": "Introduction to Istio and service mesh",
+    "slug": "Learn how a service mesh enables enhanced traffic control between microservices.",
+    "time": "90",
+    "tags": [{
+        "title": "Containers"
+    }, {
+        "title": "Istio"
+    }, {
+        "title": "Service Mesh"
+    }],
+    "files": [{
+        "title": "Introduction to Service Mesh",
+        "file": "1-Istio_and_lab_overview.md"
+    }, {
+        "title": "Configure your Kubernetes environment for Istio",
+        "file": "2-Istio_lab1_K8s.md"
+    }, {
+        "title": "MyHero application architecture",
+        "file": "3-Myhero_app_architecture.md"
+    }, {
+        "title": "Deploy the MyHero application and apply Istio policies",
+        "file": "4-Istio_lab2_Instal_myhero.md"
+    }, {
+        "title": "Istio mini-missions",
+        "file": "5-Istio_Mission_Istio_policies.md"
+    }],
+    "authors": [{
+        "name": "Roger Dickinson",
+        "email": "rdickins@cisco.com"
+        }],
+    "byod": true,
+    "active": false
+}
