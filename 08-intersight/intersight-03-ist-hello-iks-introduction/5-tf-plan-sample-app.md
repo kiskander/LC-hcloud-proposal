@@ -6,7 +6,7 @@ In this exercise, you assume of an app developer. You deploy a sample app on the
 
 Open the `sb_iksapp-XXXX` workspace in TFCB. Confirm that the variables are correct for the `api_key` and `secretkey`. Click **Queue plan manually** to execute the plan to deploy the sample app.
 
-![](assets/images/Picture13.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture13.png?raw=true)
 
 ## Review and confirm the plan
 
@@ -14,7 +14,7 @@ The TFCB formulates a plan. Review the plan and verify the details of the sample
 
 Confirm the plan to deploy the app to your infrastructure. TFCB uses its integration with Intersight to remotely and securely execute this plan. On a successful run, you see a successful deployment of the sample app:
 
-![](assets/images/Picture25.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture25.png?raw=true)
 
 
 ## Log in to the control plane node of the IKS cluster 
@@ -29,7 +29,7 @@ Retrieve the IP address of your control plane node by logging in to the vSphere 
 
 Browse to your IKS primary node and retrieve the ControlPlane IP address (`controlplane_ip`):
 
-![](assets/images/Picture28.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture28.png?raw=true)
 
 On the Sandbox DevBox, use the ssh private key that you generated in [Log into Intersight](https://developer.cisco.com/learning/lab/intersight-02-ist-vm-automation/step/3) to log into the cluster node:
 
@@ -49,10 +49,10 @@ Retrieve the LoadBalancer external IP of your `ingress-nginx-controller`:
 kubectl get svc --all-namespaces
 ```
 
-![](assets/images/Picture30.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture30.png?raw=true)
 
 Open the URL in a browser window. You should see something similar to the following example:
 
-![](assets/images/Picture271.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture271.png?raw=true)
 
 **Next: Terminating your Sandbox**

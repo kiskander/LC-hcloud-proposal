@@ -37,7 +37,7 @@ kubectl -n istio-system get svc istio-ingressgateway
 
 ![alt text][kubectl_get_istio_gateway_ip]
 
-[kubectl_get_istio_gateway_ip]: Istio_DNE_Images/kubectl_get_istio_gateway_ip.png
+[kubectl_get_istio_gateway_ip]: https://github.com/kiskander/LC-hcloud-proposal/blob/main/06-service-mesh/Istio_DNE_Images/kubectl_get_istio_gateway_ip.png?raw=true
 
 ## Create MyHero manifests
 All application and service deployments are made using manifest files. These files define your application and associated components. All the manifests you need to complete the labs in this module are stored in the [containers-code repository on GitHub](https://github.com/CiscoDevNet/containers-code). You need to clone the repo to your machine.
@@ -64,7 +64,7 @@ The example below uses [Atom](https://atom.io/).
 
 ![alt text][Istio-manifest-edit-example]
 
-[Istio-manifest-edit-example]:Istio_DNE_Images/Istio-manifest-edit-example.png
+[Istio-manifest-edit-example]:https://github.com/kiskander/LC-hcloud-proposal/blob/main/06-service-mesh/Istio_DNE_Images/Istio-manifest-edit-example.png?raw=true
 
 Replace `<Istio-ingressgateway-IP>` on **all FOUR** manifest files above with the IP address that you recorded in the previous step. Please note that the `k8s_myhero_ui.template` manifest file has 3 instances of `<Istio-ingressgateway-IP>`.
 
@@ -98,7 +98,7 @@ If you want, you can also deploy via the K8s dashboard, as shown below. **If you
 
 ![alt text][k8s_dash_create]
 
-[k8s_dash_create]:Istio_DNE_Images/k8s_dash_create.png
+[k8s_dash_create]:https://github.com/kiskander/LC-hcloud-proposal/blob/main/06-service-mesh/Istio_DNE_Images/k8s_dash_create.png?raw=true
 
 If you now take a look at the new pods, you will immediately notice that they include 2 containers, instead of just 1 as before (`READY 2/2`):
 
@@ -112,12 +112,12 @@ You will be able to access `myhero` public IP address from your own browser and 
 
 ![alt text][myhero_working]
 
-[myhero_working]:Istio_DNE_Images/myhero_working.png
+[myhero_working]:https://github.com/kiskander/LC-hcloud-proposal/blob/main/06-service-mesh/Istio_DNE_Images/myhero_working.png?raw=true
 
 Vote for your favorite superhero to check the backend is working. After voting on your favorite super hero, your screen should update as shown below.
 
 ![alt text][myhero_backend]
 
-[myhero_backend]:Istio_DNE_Images/myhero_backend.png
+[myhero_backend]:https://github.com/kiskander/LC-hcloud-proposal/blob/main/06-service-mesh/Istio_DNE_Images/myhero_backend.png?raw=true
 
 **Next: Control traffic routing and responses with Istio**

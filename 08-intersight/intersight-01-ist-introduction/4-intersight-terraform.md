@@ -6,7 +6,7 @@ The Cisco Intersight Service for Hashicorp Terraform (referred to as Intersight 
 
 Intersight supports Terraform Cloud as a SaaS product.
 
-![](assets/images/ist01.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-01-ist-introduction/assets/images/ist01.png?raw=true)
 
 You can use the Cisco IST to deploy complex infrastructure, including multi-tier applications, self-service clusters, software demos, disposable environments, multicloud deployments, and more.
 
@@ -34,7 +34,7 @@ Terraform Cloud provides a solution for running Terraform code in environments t
 
 The agent uses a Docker image that is available at [Docker Hub](https://hub.docker.com/r/hashicorp/tfc-agent/tags). Intersight maintains and updates the agent images in an internal Docker registry. The agent is instantiated as Kubernetes pods in an Intersight Assist Appliance.
 
-![](assets/images/ist06.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-01-ist-introduction/assets/images/ist06.png?raw=true)
 
 ## Intersight Assist
 
@@ -44,6 +44,6 @@ Intersight Assist securely extends the ability to manage, automate, orchestrate,
 * __Extensible__: Our growing library of integrations with Terraform, Pure Storage, NetApp, Hitachi, and VMware are just the beginning.
 * __Secure__: Intersight Assist is a hardened appliance with seamless upgrades and management from Intersight’s SaaS platform.
 
-![](assets/images/ist07.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-01-ist-introduction/assets/images/ist07.png?raw=true)
 
 **Congratulations! You have completed "Introduction to Intersight Service for Hashicorp Terraform". Return to [the DevNet Infrastructure as Code page](https://developer.cisco.com/iac)**

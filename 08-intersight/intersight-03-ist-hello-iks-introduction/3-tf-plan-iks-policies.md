@@ -4,14 +4,14 @@ In this exercise, you assume a Cloud Admin persona to provision IKS policies tha
 
 > **Note:** The following policies are currently supported. However, for this Learning Lab, you configure the minimal policies for setting up a single node IKS cluster.
 
-![](assets/images/Picture18.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture18.png?raw=true)
 
 
 ## Queue the plan
 
 Open the `sb_k8sprofile-XXXX` workspace in TFCB. Confirm that the variables are correct for the `api_key` and `secretkey`. Click **Queue plan manually** to execute the plan to create the IKS policies.
 
-![](assets/images/Picture13.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture13.png?raw=true)
 
 ## Review and confirm the plan
 
@@ -25,15 +25,15 @@ The TFCB formulates a plan. Review the plan and verify that the policy settings 
 
 Confirm the plan to apply it to your infrastructure. When the run is complete, a **Run confirmed** message appears.
 
-![](assets/images/Picture15.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture15.png?raw=true)
 
 ## Verify the configuration
 
 Log in to Intersight and verify the configurations of the IP pool and the policies:
 
-![](assets/images/Picture16.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture16.png?raw=true)
 
-![](assets/images/Picture17.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture17.png?raw=true)
 
 
 DevOps can now provision an IKS cluster that is based on the policies.

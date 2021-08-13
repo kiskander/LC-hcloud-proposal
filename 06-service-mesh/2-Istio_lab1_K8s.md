@@ -21,7 +21,7 @@ kubectl config view
 
 ![alt text][kubectl_config_view_3]
 
-[kubectl_config_view_3]:Istio_DNE_Images/kubectl_config_view_3.png "Config View"
+[kubectl_config_view_3]:https://github.com/kiskander/LC-hcloud-proposal/blob/main/06-service-mesh/Istio_DNE_Images/kubectl_config_view_3.png?raw=true "Config View"
 
 The output from this command shows that our `kubectl` configuration file is empty and not pointing to any k8s clusters.
 
@@ -41,14 +41,14 @@ The kubeconfig file(s) from the previous modules should be located in the downlo
 
  ![alt text][Delete_Kubeconfig]
 
-[Delete_Kubeconfig]:Istio_DNE_Images/kubectl_delete_old_kubeconfig1.png "KUBECONFIG"
+[Delete_Kubeconfig]:https://github.com/kiskander/LC-hcloud-proposal/blob/main/06-service-mesh/Istio_DNE_Images/kubectl_delete_old_kubeconfig1.png?raw=true "KUBECONFIG"
 
 
 Next, go to the CCP UI (https://198.18.1.110, username `admin` and password `Cisco123`)and download the new `kubeconfig` for API Cluster-1.
 
 ![alt text][Kubeconfig_download]
 
-[Kubeconfig_download]:Istio_DNE_Images/Kubectl_download_kubeconfig_from_ccp.png "KUBECONFIG"
+[Kubeconfig_download]:https://github.com/kiskander/LC-hcloud-proposal/blob/main/06-service-mesh/Istio_DNE_Images/Kubectl_download_kubeconfig_from_ccp.png?raw=true "KUBECONFIG"
 
 On the CENTOS machine command line, issue the following commands to point `kubectl` to the API-Cluster-1 `kubeconfig`.
 
@@ -60,7 +60,7 @@ export KUBECONFIG=$HOME/Downloads/kubeconfig.yaml
 
 ![alt text][Kubectl_switch_context]
 
-[Kubectl_switch_context]:Istio_DNE_Images/kubeconfigENV1.png "Config View"
+[Kubectl_switch_context]:https://github.com/kiskander/LC-hcloud-proposal/blob/main/06-service-mesh/Istio_DNE_Images/kubeconfigENV1.png?raw=true "Config View"
 
 With `kubectl` now using the new API-Cluster-1 `kubeconfig`, you should now be able to view and control the API-cluster-1 form the CLI.
 

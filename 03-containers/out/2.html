@@ -40,7 +40,7 @@
 <p>To understand why we would want to use containers in the first place, lets look at how we would deploy our applications with and without them.</p>
 <h2 id="bare-metal-or-single-host">Bare Metal or Single Host.</h2>
 <p>Applications teams used to deploy applications all onto the same server, using simple operating system packaging such as DEB or RPM, maybe with a layer of automation such as Puppet or Chef. This servers directory structure was filled with the components of many applications.</p>
-<p><img src="file:////posts/files/containers-101/assets/images/bare-app.png" alt="Single host multi app deployment"></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/03-containers/assets/images/bare-app.png?raw=true" alt="Single host multi app deployment"></p>
 <ul>
 <li>Oldest and simplest method of deploying applications, gets messy quickly</li>
 <li>Usually relies on OPS team to ‘validate’ changes. &quot;Don't touch the server&quot;</li>
@@ -51,13 +51,13 @@
 </ul>
 <h2 id="with-virtual-machines">With Virtual Machines</h2>
 <p>Operations teams then used virtualisation to gain isolation, giving each application its own VM in order to create order and repeatability. Often within each VM, the same deployment tooling (manual packages or puppet/chef etc) as in the bare metal scenario was used.</p>
-<p><img src="file:////posts/files/containers-101/assets/images/vm-app.png" alt="VM Host multi app deployment"></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/03-containers/assets/images/vm-app.png?raw=true" alt="VM Host multi app deployment"></p>
 <p>Some engineering teams realised the value of &quot;baking&quot; a golden VM image for each release of each application, so that new VM's could be swapped out for old ones in a near-stateless fashion, with no commands (RPM, installations, puppet etc) being needed. This allowed CI/CD systems to produce artefacts (the VM image) which could be easily deployed to production.</p>
 <p>VM's being a full operating system however, each image still takes a while to boot and start services, so this still didn't provide on-demand scaling or the immediate healing some operations teams were looking for.</p>
 <p>A lot of teams, continued managing the VM's manually or near-manually, purely using VM's for their isolation.</p>
 <h2 id="with-containers">With Containers</h2>
 <p>Imagine the pre-baked image benefits of VM's, coupled with near immediate bootup time and a lot less complexity. We don't need a whole OS in each of our images anymore, because containers run <em>on top</em> of a single operating system (all that cGroups stuff remember?) so our baked application image is now only as big as our application and it's dependancies. Easier to store, share, and deploy.</p>
-<p><img src="file:////posts/files/containers-101/assets/images/container-app.png" alt="Container multi app deployment"></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/03-containers/assets/images/container-app.png?raw=true" alt="Container multi app deployment"></p>
 <h2 id="in-summary">In summary..</h2>
 <p>Containers change how we package and deploy code/files/binaries/libraries onto systems...</p>
 <p>The rise of containers complements and <em>enables</em> a growing change in software development methodologies such as DevOPS, designed to remove roadblocks from the development process, get the developers involved in the packaging and production of their own code... getting things into production quicker.</p>
@@ -76,7 +76,7 @@
 </ul>
 <p>On the previous page, we said it is the tools and features that have been created <em>around</em> the actual container technology, that bring the value to &quot;containers&quot;... such developer toolchains are the exact bits that address all these questions above.</p>
 <p>Most people when they talk about &quot;containers&quot; are talking about this whole toolchain.</p>
-<p><img src="file:////posts/files/containers-101/assets/images/container-endtoend.png" alt="End to end container deployment"></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/03-containers/assets/images/container-endtoend.png?raw=true" alt="End to end container deployment"></p>
 <p>Consider the slide above. It shows a process for developers building, packaging, versioning and deploying their apps. The actual Cgroup technology is that tiny highlighed red box, but containers have become synonymous with the following idea:</p>
 <h4 id="it-changes-how-developers-package-and-deploy-their-apps-for-the-better">It changes how developers package and deploy their apps... For the better.</h4>
 <p>And this! Is why containers matter. The whole toolchain that a developer can use to go from code, to packaged, repeatable container deployments of their app.</p>

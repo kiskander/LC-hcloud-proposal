@@ -1,6 +1,6 @@
 # Infrastructure as Code (IaC)
 
-![](assets/images/ist02.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-01-ist-introduction/assets/images/ist02.png?raw=true)
 
 IaC has evolved to solve the problem of environment drift in the release pipeline. This evolution has led to active management of infrastructure in a declarative model that uses versioning for the source "code". As an example, a model can be the desired end state of an environment. IaC makes Git repositories the "Single Source of Truth", similar to the repositories for application code.
 

@@ -2,7 +2,7 @@
 
 You should now understand why you need an orchestrator: so that you don't have to manually run containers in production, which would be nearly impossible at any scale.
 
-![An Orchestrator gives us a single interface to a pool of resources](/posts/files/containers-intro-kubernetes/assets/images/orchestrator1.png)
+![An Orchestrator gives us a single interface to a pool of resources](https://github.com/kiskander/LC-hcloud-proposal/blob/main/05-kubernetes/assets/images/orchestrator1.png?raw=true)
 
 ## Choosing an Orchestrator
 As with Virtual Machine orchestration, numerous solutions exist for orchestrating containers.
@@ -20,7 +20,7 @@ In this module, you will learn about Kubernetes.
 ## Why Kubernetes?
 Kubernetes, an orchestrator initially developed and then donated to the open-source community by Google, is based on Google's internal "Borg" orchestrator, which was developed to manage Google data centers. Kubernetes been widely embraced by the open-source community.
 
-![Kubernetes Contributions Github Top10 18](/posts/files/containers-intro-kubernetes/assets/images/githubk8s18.png)
+![Kubernetes Contributions Github Top10 18](https://github.com/kiskander/LC-hcloud-proposal/blob/main/05-kubernetes/assets/images/githubk8s18.png?raw=true?raw=true)
 
 Kubernetes has rapidly become the de facto container orchestrator, and is the most sensible choice for you to learn.
 
@@ -32,11 +32,11 @@ Kubernetes has rapidly become the de facto container orchestrator, and is the mo
 
 Such is the demand for Kubernetes that *every major cloud provider* offers managed Kubernetes. You can also run Kubernetes on your own hardware and in your own data centers. Kubernetes provides a universal API / Abstraction Layer for managing containers.
 
-![Kubernetes Available Everywhere](/posts/files/containers-intro-kubernetes/assets/images/kuberneteseverywhere.png)
+![Kubernetes Available Everywhere](https://github.com/kiskander/LC-hcloud-proposal/blob/main/05-kubernetes/assets/images/kuberneteseverywhere.png?raw=true)
 
 The widespread availability of Kubernetes makes it hugely powerful for multi- and hybrid cloud environments.
 
-![Kubernetes Reduces MultiCloud Deployment Complexity](/posts/files/containers-intro-kubernetes/assets/images/kubernetesuniversal.png)
+![Kubernetes Reduces MultiCloud Deployment Complexity](https://github.com/kiskander/LC-hcloud-proposal/blob/main/05-kubernetes/assets/images/kubernetesuniversal.png?raw=true)
 
 
 ## Getting Kubernetes
@@ -49,4 +49,4 @@ There are also web-based, "virtual environments" that enable you to interface wi
 ## Deeper Reading
 In this module, you will use Kubernetes to automate some container deployments. But those who really want to understand the internals of how Kubernetes operates can explore an excellent blog series called [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way).
 
-![Kubernetes The Hard Way Complexity](/posts/files/containers-intro-kubernetes/assets/images/k8shardway.png)
+![Kubernetes The Hard Way Complexity](https://github.com/kiskander/LC-hcloud-proposal/blob/main/05-kubernetes/assets/images/k8shardway.png?raw=true)

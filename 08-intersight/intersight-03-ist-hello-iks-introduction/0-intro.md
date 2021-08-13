@@ -35,7 +35,7 @@ When you complete this Learning Lab, you will be familiar with:
 *	Security: consolidate access through one communication point in Intersight
 *	Orchestration: Terraform APIs accessible through Intersight
 
-![](assets/images/Picture1.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture1.png?raw=true?raw=true)
 
 ### Intersight Kubernetes Service - IKS
 
@@ -48,7 +48,7 @@ IKS is a SaaS-delivered, turn-key container management platform for multicloud, 
 *	is built for the enterprise with hardened security and enhanced availability features like multi-master nodes and self-healing
 *	optimized for AI/ML workloads with multi-GPU support
 
-![](assets/images/Picture2.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture2.png?raw=true)
 
 
 ## Prerequisites
@@ -56,11 +56,11 @@ Please make a reservation at the following Intersight Service for Hashicorp Terr
 
 https://devnetsandbox.cisco.com/RM/Diagram/Index/daad55dd-45f1-46c6-a1b4-7339b318c970?diagramType=Topology
 
-![](assets/images/Picture3.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture3.png?raw=true)
 
 Upon reservation, you will have received another email indicating access to VPN credentials.
 
-![](assets/images/Picture4.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture4.png?raw=true)
 
 Follow those instructions to connect to the necessary VPN connection (this is necessary to access the vSphere, IKS cluster and App instance later.)
 
@@ -68,7 +68,7 @@ Follow those instructions to connect to the necessary VPN connection (this is ne
 
 To make for a consistent experience, the following elements are pre-configured in the accompanying sandbox environment.
 
-![](assets/images/Picture33.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture33.png?raw=true)
 
 ##### Lab user accounts in Intersight SAAS
 Intersight is a SaaS-delivered, common platform for intelligent visualization, optimization, and orchestration for applications and infrastructure across hybrid cloud. Lab user will be provided with a temporary account for the duration of this sandbox. You will need this to execute some manual steps later in the lab.

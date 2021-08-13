@@ -6,19 +6,19 @@ In order to demonstrate the power of Istio, you will install a microservices app
 
 ![alt text][myhero_1]
 
-[myhero_1]: Istio_DNE_Images/myhero_1.png "MyHero"
+[myhero_1]: https://github.com/kiskander/LC-hcloud-proposal/blob/main/06-service-mesh/Istio_DNE_Images/myhero_1.png?raw=true "MyHero"
 
 Each service is defined by a manifest file. When deployed onto the kubernetes(Kubernetes) cluster the *Data* and *APP* services use one pod each and the *Presentation* service uses three pods.
 
 ![alt text][myhero_2]
 
-[myhero_2]: Istio_DNE_Images/myhero_2.png "MyHero2"
+[myhero_2]: https://github.com/kiskander/LC-hcloud-proposal/blob/main/06-service-mesh/Istio_DNE_Images/myhero_2.png?raw=true "MyHero2"
 
 `myhero` could work happily leveraging the native Kubernetes networking and load balancing services. However, you want to add Istio as the service mesh abstraction, so you need another set of manifest files to get the app up and running.
 
 ![alt text][myhero_istio_1]
 
-[myhero_istio_1]: Istio_DNE_Images/myhero_istio_1.png "MyHero2"
+[myhero_istio_1]: https://github.com/kiskander/LC-hcloud-proposal/blob/main/06-service-mesh/Istio_DNE_Images/myhero_istio_1.png?raw=true "MyHero2"
 
 When Istio is enabled within a Kubernetes namespace, it automatically installs a second container, the envoy proxy, or sidecar. This sidecar proxies all traffic in and out of the pod and, in doing so, it provides a policy control point.
 

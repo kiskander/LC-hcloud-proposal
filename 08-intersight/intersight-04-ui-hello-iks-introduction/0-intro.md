@@ -43,14 +43,14 @@ IKS is a SaaS-delivered, turn-key container management platform for multicloud, 
 *	Is built for the enterprise with hardened security and enhanced availability features like multiple control nodes and self-healing features
 *	Optimized for AI/ML workloads with multi-GPU support
 
-![](assets/images/Picture2.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/Picture2.png?raw=true)
 
 
 ## Prerequisites
 
 *   Note the licensing requirement to use the Intersight Kubernetes Service in your own data center. You will need the Premier or Advantage license to be able to use IKS. The Sandbox has these licenses preprovisioned for Lab users and so there is nothing that you need to do to complete this Learning Lab.
 
-![](assets/images/license.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/license.png?raw=true)
 
 *   Make a reservation at the following IKS with UI & ClickOps Sandbox:
 
@@ -58,7 +58,7 @@ TBD - link to new SB?
 
 *   Upon reservation, you will receive another email indicating access to VPN credentials.
 
-![](assets/images/Picture4.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/Picture4.png?raw=true)
 
 *   Follow instructions in the invitaton email to connect to the sandbox VPN (this is necessary to access the vSphere, IKS cluster and App instance later.)
 
@@ -68,7 +68,7 @@ TBD - link to new SB?
 
 To make for a consistent experience, the following elements are pre-configured in the accompanying sandbox environment.
 
-![](assets/images/Picture33.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/Picture33.png?raw=true)
 
 ##### Lab user accounts in Intersight SAAS
 Intersight is a SaaS-delivered, common platform for intelligent visualization, optimization, and orchestration for applications and infrastructure across hybrid cloud. You will be provided with a temporary account for the duration of this Sandbox. You will need this to execute some manual steps later in the lab.
@@ -90,7 +90,7 @@ This is the hypervisor managing the IKS cluster VM’s being created for k8s con
 
 2. Examine pre-configured elements (Intersight Targets). The following targets are pre-configured in Intersight corresponding to the remote entities and agents that it integrates with. Ignore the Terraform related Targets, we will not be using those in this Learning Lab.
 
-![](assets/images/Picture5.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/Picture5.png?raw=true)
 
 The above targets are required to account for Intersight's integrations with the on prem entities. 
 

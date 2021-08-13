@@ -8,7 +8,7 @@ In this exercise, you assume a DevOps persona to provision an IKS cluster.
 
 Open the `sb_iks-XXXX` workspace in TFCB. Confirm that the variables are correct for the `api_key`, `secretkey`, and `mgmtcfgsshkeys`. Click **Queue plan manually** to execute the plan to create the IKS cluster.
 
-![](assets/images/Picture13.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture13.png?raw=true)
 
 ## Review and confirm the plan
 
@@ -18,13 +18,13 @@ Confirm the plan to apply it to your infrastructure. **Provisioning can take as 
 
 On a successful run, you see a dump of the kubeconfig for the cluster that you created. You will use the kubeconfig in the next exercise to deploy a sample app. 
 
-![](assets/images/Picture21.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture21.png?raw=true)
 
 ## Verify the configuration
 
 Log in to Intersight and verify the cluster configuration:
 
-![](assets/images/Picture22.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture22.png?raw=true)
 
 An app developer can now deploy their containerized apps on the IKS cluster.
 

@@ -30,6 +30,6 @@ Intersight Service for Terraform adds the following advantages:
 * __Orchestration__: Access Terraform APIs through Intersight.
 
 
-![](assets/images/ist01.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-01-ist-introduction/assets/images/ist01.png?raw=true)
 
 **Next: Multicloud Challenges**

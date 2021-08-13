@@ -6,23 +6,23 @@ After you have completed the Lab, clean up your clusters and the Sandbox.
 
 Select cluster profile and Undeploy the IKS cluster before deleting it:
 
-![](assets/images/undeploy.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/undeploy.png?raw=true)
 
 Track the workflow for the undeployment to terminate:
 
-![](assets/images/unwf.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/unwf.png?raw=true)
 
 ## Use Intersight UI to Delete IKS Profile
 
 After cluster undeployment is done, please delete the cluster profile:
 
-![](assets/images/clsdel.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/clsdel.png?raw=true)
 
 ## Use Intersight UI to Delete IKS Policies
 
 Select all the IKS policies and delete:
 
-![](assets/images/poldel.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/poldel.png?raw=true)
 
 ## Terminating you Sandbox reservation
 
@@ -33,4 +33,4 @@ https://devnetsandbox.cisco.com/RM/Diagram/Index/daad55dd-45f1-46c6-a1b4-7339b31
 
 Help us terminate the Sandbox and prepare it for the next labuser by gracefully ending the reservation as follows:
 
-![](intersight-03-iks-hello-images/Picture35.png)
+![](intersight-03-iks-hello-images/Picture35.png?raw=true)

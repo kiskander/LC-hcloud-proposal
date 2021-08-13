@@ -6,17 +6,17 @@ You are ready to log in to Intersight with the link from your Cisco DevNet Sandb
 
 Intersight contains the following pre-configured targets that correspond to the remote entities and agents that it integrates with.
 
-![](assets/images/Picture5.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture5.png?raw=true)
 
 These targets are required to account for Intersight's integrations with the on-premises agents and TFCB.
 
 NOTE: At times, the vSphere Target in Intersight may appear as disconnected as follows:
 
-![](assets/images/Picture36.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture36.png?raw=true)
 
 Please click on the vSphere Target, edit, select "Datastore Browsing Enabled" and Save your new config. You should see the Target change back to "Connected" state on a Refresh.
 
-![](assets/images/Picture37.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture37.png?raw=true)
 
 ## Generate API keys
 
@@ -24,11 +24,11 @@ In this step, generate the API keys that you will upload to TFCB workspaces.
 
 On the **Settings** tab at intersight.com, generate the API key. 
 
-![](assets/images/Picture10.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture10.png?raw=true)
 
 Store the key ID and secret key. You will need this information for the next step:
 
-![](assets/images/Picture11.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture11.png?raw=true)
 
 ## Upload Intersight API keys to TFCB workspaces
 
@@ -44,7 +44,7 @@ Open each workspace and click **Configure variables**. In the **Terraform Variab
 
 Generate ssh keys on the Sandbox DevBox. You can get the SSH credentials for your DevBox from your Sandbox:
 
-![](assets/images/Picture121.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture121.png?raw=true)
 
 Use your terminal to connect to the DevBox via ssh.
 
@@ -62,7 +62,7 @@ Open the file where you saved the key with `vim` or `nano` and copy it.
 
 Return to the `sb_iks_xxx` workspace in TFCB. Add the variable `mgmtcfgsshkeys` and mark it as sensitive.
 
-![](assets/images/Picture12.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture12.png?raw=true)
 
 
 **Next: Execute the TFCB plan to create IKS policies**

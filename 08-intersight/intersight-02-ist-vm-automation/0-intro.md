@@ -18,11 +18,11 @@ Before you begin, complete [Introduction to Intersight Service for Hashicorp Ter
 
 To complete this Learning Lab, you need a reservation at the [Intersight Service for Hashicorp Terraform Sandbox](https://devnetsandbox.cisco.com/RM/Diagram/Index/055e2dce-fdfd-4d26-a112-72b884ddd7c7?diagramType=Topology)
 
-![](assets/images/ist02.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-01-ist-introduction/assets/images/ist02.png?raw=true)
 
 When the reservation process is complete, you receive an email that contains VPN credentials.  
 
-![](assets/images/ist16.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-01-ist-introduction/assets/images/ist16.png?raw=true)
 
 Follow those instructions to connect to the VPN. Complete this task to access the vSphere instance later.
 
@@ -44,7 +44,7 @@ VMWare vSphere is the hypervisor that manages the VMs that you create.
 
 This diagram shows how the components for this Learning Lab fit together.
 
-![](assets/images/ist25.png)
+![](https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-01-ist-introduction/assets/images/ist25.png?raw=true)
 
 
 **Next: Log in to Terraform Cloud for Business and observe workspaces**
