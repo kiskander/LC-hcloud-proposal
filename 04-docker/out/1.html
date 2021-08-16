@@ -80,7 +80,7 @@ They bring their own nuances and require deployment consideration just like any 
 <p>However, for these hands on sessions. we'll use an in-browser docker playground called <a href="http://play-with-docker.com">play-with-docker.com</a></p>
 <p>This gives you access to a full VM running Docker, direct from your web browser, making demo's really easy regardless of your device!</p>
 <p>Open <a href="http://play-with-docker.com">http://play-with-docker.com</a> in your browser and click &quot;Add New Instance&quot; on the right. You'll then be given a full terminal window to the instance which we'll use for the rest of this learning lab!</p>
-<p><img src="file:////posts/files/docker-101/assets/images/playwithdocker1.png" alt="Play With Docker Site"></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/04-docker/assets/images/playwithdocker1.png?raw=true" alt="Play With Docker Site"></p>
 <p>On this VM, docker has already been installed. You can test this now by asking the docker CLI for it's version number..</p>
 <pre><code><code><div>docker -v
 </div></code></code></pre>
@@ -92,14 +92,14 @@ They bring their own nuances and require deployment consideration just like any 
 <p>The docker CLI searches docker hub by default (other private docker repositories are available and can be configured for the docker CLI to use those instead).</p>
 <p>Search for a public docker container image by running <code>docker search &lt;keyword&gt;</code></p>
 <p>Theres a very simple test container called hello-world... Guess what it does.</p>
-<p><img src="file:////posts/files/docker-101/assets/images/dockersearch.png" alt="docker search hello-world"></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/04-docker/assets/images/dockersearch.png?raw=true" alt="docker search hello-world"></p>
 <p>We can see docker has searched the public docker hub repositories and found the hello-world image. So lets run it...</p>
 <pre><code><code><div>docker run hello-world
 </div></code></code></pre>
 <p>When we specify an image name (hello-world in this case), docker looks to see if we have a copy of that container image locally, if we don't, it downloads it from the public docker hub.</p>
 <p>Once downloaded, docker will set up the needed container isolation on the system and run this container image.</p>
 <p>This container simply outputs a hello message to the console and then dies... You should see this happening on your play-with-docker system:</p>
-<p><img src="file:////posts/files/docker-101/assets/images/dockerrun1.png" alt="docker run hello-world"></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/04-docker/assets/images/dockerrun1.png?raw=true" alt="docker run hello-world"></p>
 <p>Congratulations! You just ran your first container with Docker!</p>
 <p>Read on to find out what just happened behind the scenes, and how we make our own Docker images to containerise our own applications!</p>
 

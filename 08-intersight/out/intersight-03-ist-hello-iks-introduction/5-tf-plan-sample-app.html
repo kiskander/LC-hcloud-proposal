@@ -39,11 +39,11 @@
 <p>In this exercise, you assume of an app developer. You deploy a sample app on the IKS cluster using Helm Terraform Provider and using IST.</p>
 <h2 id="queue-the-plan">Queue the plan</h2>
 <p>Open the <code>sb_iksapp-XXXX</code> workspace in TFCB. Confirm that the variables are correct for the <code>api_key</code> and <code>secretkey</code>. Click <strong>Queue plan manually</strong> to execute the plan to deploy the sample app.</p>
-<p><img src="file:////Users/kiskande/PycharmProjects/Hybrid-Cloud-Content-Demo/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture13.png" alt=""></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture13.png?raw=true" alt=""></p>
 <h2 id="review-and-confirm-the-plan">Review and confirm the plan</h2>
 <p>The TFCB formulates a plan. Review the plan and verify the details of the sample app that you are deploying on the IKS cluster.</p>
 <p>Confirm the plan to deploy the app to your infrastructure. TFCB uses its integration with Intersight to remotely and securely execute this plan. On a successful run, you see a successful deployment of the sample app:</p>
-<p><img src="file:////Users/kiskande/PycharmProjects/Hybrid-Cloud-Content-Demo/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture25.png" alt=""></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture25.png?raw=true" alt=""></p>
 <h2 id="log-in-to-the-control-plane-node-of-the-iks-cluster">Log in to the control plane node of the IKS cluster</h2>
 <p>Use <code>kubectl</code> commands on your IKS cluster to retrieve the Load Balancer IP that is configured for your ingress-controller.</p>
 <p>Retrieve the IP address of your control plane node by logging in to the vSphere client. Confirm that you have connected to the VPN that was specified in your Sandbox invitation email, and then log in to your Sandbox instance of vSphere:</p>
@@ -53,7 +53,7 @@
 <li>Password: <code>PurplePigChevy88!</code></li>
 </ul>
 <p>Browse to your IKS primary node and retrieve the ControlPlane IP address (<code>controlplane_ip</code>):</p>
-<p><img src="file:////Users/kiskande/PycharmProjects/Hybrid-Cloud-Content-Demo/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture28.png" alt=""></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture28.png?raw=true" alt=""></p>
 <p>On the Sandbox DevBox, use the ssh private key that you generated in <a href="https://developer.cisco.com/learning/lab/intersight-02-ist-vm-automation/step/3">Log into Intersight</a> to log into the cluster node:</p>
 <pre><code class="language-bash"><div>ssh -i &lt;path_to_private_ssh_key&gt; iksadmin@controlplane_ip
 </div></code></pre>
@@ -63,9 +63,9 @@
 <p>Retrieve the LoadBalancer external IP of your <code>ingress-nginx-controller</code>:</p>
 <pre><code class="language-bash"><div>kubectl get svc --all-namespaces
 </div></code></pre>
-<p><img src="file:////Users/kiskande/PycharmProjects/Hybrid-Cloud-Content-Demo/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture30.png" alt=""></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture30.png?raw=true" alt=""></p>
 <p>Open the URL in a browser window. You should see something similar to the following example:</p>
-<p><img src="file:////Users/kiskande/PycharmProjects/Hybrid-Cloud-Content-Demo/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture271.png" alt=""></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-03-ist-hello-iks-introduction/assets/images/Picture271.png?raw=true" alt=""></p>
 <p><strong>Next: Terminating your Sandbox</strong></p>
 
     </body>

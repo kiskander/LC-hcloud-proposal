@@ -38,7 +38,7 @@
         <h1 id="use-intersight-ui-to-provision-an-ip-pool">Use Intersight UI to provision an IP Pool</h1>
 <p>As a Cloud Admin, you will allocate IP pools to the various application teams to provision their IKS clusters. You can either create a single pool that can be used for all of the IKS clusters or provision multiple IP Pools and assign each to individual application teams.</p>
 <p><strong>PLEASE USE THE VALUES SPECIFIED IN THE SNAPSHOTS. THESE ARE THE VALUES THAT APPLY TO THE SANDBOX CONFIGURATION.</strong></p>
-<p><img src="file:////Users/kiskande/PycharmProjects/Hybrid-Cloud-Content-Demo/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/ippool.png" alt=""></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/ippool.png?raw=true" alt=""></p>
 <p>Provision the following with the Sandbox infrastructure parameters and click <strong>Create</strong>. You can skip the IPv6 tab for now since IPv6 is not supported currently.</p>
 <pre><code><code><div>Subnet Mask 255.255.255.0
 Default Gateway 10.10.20.254
@@ -47,33 +47,33 @@ Secondary DNS - NA
 Start Address - 10.10.20.170
 Number - 20
 </div></code></code></pre>
-<p><img src="file:////Users/kiskande/PycharmProjects/Hybrid-Cloud-Content-Demo/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/ippool1.png" alt=""></p>
-<p><img src="file:////Users/kiskande/PycharmProjects/Hybrid-Cloud-Content-Demo/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/ippool2.png" alt=""></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/ippool1.png?raw=true" alt=""></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/ippool2.png?raw=true" alt=""></p>
 <h1 id="use-intersight-ui-to-provision-iks-policies">Use Intersight UI to provision IKS policies</h1>
 <p>Next, you provision IKS policies that your DevOps teams will use to provision their IKS cluster.</p>
 <p><strong>PLEASE USE THE VALUES SPECIFIED IN THE SNAPSHOTS. THESE ARE THE VALUES THAT APPLY TO THE SANDBOX CONFIGURATION.</strong></p>
 <p>The following are the policies that are available for you to configure:</p>
-<p><img src="file:////Users/kiskande/PycharmProjects/Hybrid-Cloud-Content-Demo/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/Picture18.png" alt=""></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/Picture18.png?raw=true" alt=""></p>
 <p><strong>1.</strong> Configure Kubernetes Version Policy:</p>
-<p><img src="file:////Users/kiskande/PycharmProjects/Hybrid-Cloud-Content-Demo/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/kubever1.png" alt=""></p>
-<p><img src="file:////Users/kiskande/PycharmProjects/Hybrid-Cloud-Content-Demo/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/kubever2.png" alt=""></p>
-<p><img src="file:////Users/kiskande/PycharmProjects/Hybrid-Cloud-Content-Demo/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/kubever3.png" alt=""></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/kubever1.png?raw=true" alt=""></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/kubever2.png?raw=true" alt=""></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/kubever3.png?raw=true" alt=""></p>
 <p><strong>2.</strong> Configure Network CIDR Policy:</p>
 <pre><code><code><div>POD Network CIDR - 100.65.0.0/16
 Service CIDR - 100.64.0.0/24
 </div></code></code></pre>
-<p><img src="file:////Users/kiskande/PycharmProjects/Hybrid-Cloud-Content-Demo/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/netcidr1.png" alt=""></p>
-<p><img src="file:////Users/kiskande/PycharmProjects/Hybrid-Cloud-Content-Demo/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/netcidr2.png" alt=""></p>
-<p><img src="file:////Users/kiskande/PycharmProjects/Hybrid-Cloud-Content-Demo/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/netcidr3.png" alt=""></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/netcidr1.png?raw=true" alt=""></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/netcidr2.png?raw=true" alt=""></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/netcidr3.png?raw=true" alt=""></p>
 <p><strong>3.</strong> Configure Node OS Policy</p>
 <pre><code><code><div>Timezone - America/New_York
 DNS Suffix - demo.intra
 DNS Server1 - 10.10.20.100
 NTP Server1 - 10.10.20.100
 </div></code></code></pre>
-<p><img src="file:////Users/kiskande/PycharmProjects/Hybrid-Cloud-Content-Demo/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/nodeos1.png" alt=""></p>
-<p><img src="file:////Users/kiskande/PycharmProjects/Hybrid-Cloud-Content-Demo/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/nodeos2.png" alt=""></p>
-<p><img src="file:////Users/kiskande/PycharmProjects/Hybrid-Cloud-Content-Demo/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/nodeos3.png" alt=""></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/nodeos1.png?raw=true" alt=""></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/nodeos2.png?raw=true" alt=""></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/nodeos3.png?raw=true" alt=""></p>
 <p><strong>4.</strong> Configure Virtual Machine Infra Config:</p>
 <pre><code><code><div>ESXi Cluster - HyperFlex
 Datastore - SpringpathDS-10.10.20.121
@@ -81,19 +81,19 @@ Interface  - VM Network
 Resource Pool - Test_Resource_Pool
 vSphere Admin Passphrase - Enter the password that you got in your invitation email
 </div></code></code></pre>
-<p><img src="file:////Users/kiskande/PycharmProjects/Hybrid-Cloud-Content-Demo/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/infra1.png" alt=""></p>
-<p><img src="file:////Users/kiskande/PycharmProjects/Hybrid-Cloud-Content-Demo/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/infra2.png" alt=""></p>
-<p><img src="file:////Users/kiskande/PycharmProjects/Hybrid-Cloud-Content-Demo/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/infra3.png" alt=""></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/infra1.png?raw=true" alt=""></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/infra2.png?raw=true" alt=""></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images//infra3.png?raw=true" alt=""></p>
 <p><strong>5.</strong> Cofigure Virtual Machine Instance Type</p>
 <pre><code><code><div>CPU - 4
 System Disk Size (GiB) - 40
 Memory (MiB) - 16384
 </div></code></code></pre>
-<p><img src="file:////Users/kiskande/PycharmProjects/Hybrid-Cloud-Content-Demo/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/inst1.png" alt=""></p>
-<p><img src="file:////Users/kiskande/PycharmProjects/Hybrid-Cloud-Content-Demo/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/inst2.png" alt=""></p>
-<p><img src="file:////Users/kiskande/PycharmProjects/Hybrid-Cloud-Content-Demo/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/inst3.png" alt=""></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/inst1.png?raw=true" alt=""></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/inst2.png?raw=true" alt=""></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/inst3.png?raw=true" alt=""></p>
 <p>Your policy configuration listing should now looks as follows:</p>
-<p><img src="file:////Users/kiskande/PycharmProjects/Hybrid-Cloud-Content-Demo/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/pol.png" alt=""></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/08-intersight/intersight-04-ui-hello-iks-introduction/assets/images/pol.png?raw=true" alt=""></p>
 <p>Your DevOps personnel can now provision an IKS cluster that is based on the above policies.</p>
 
     </body>

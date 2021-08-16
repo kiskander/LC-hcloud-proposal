@@ -62,10 +62,10 @@ docker run &lt;your new container id&gt; &amp;
 <pre><code><code><div>docker ps
 </div></code></code></pre>
 <p>Gives us a list of running containers, we can see our new webserver running.</p>
-<p><img src="file:////posts/files/docker-101/assets/images/dockerpsweb.png" alt="Docker PS Webserver"></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/04-docker/assets/images/dockerpsweb.png?raw=true" alt="Docker PS Webserver"></p>
 <p>OK, so how do we access it? By default Docker gives each container an internal IP address on the host. We can find out which one our container has using <code>docker inspect &lt;container ID&gt;</code></p>
 <p>This will output much information about our container. You'll find &quot;IPAddress&quot; in this output as shown below.</p>
-<p><img src="file:////posts/files/docker-101/assets/images/dockerinspect.png" alt="Docker Inspect"></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/04-docker/assets/images/dockerinspect.png?raw=true" alt="Docker Inspect"></p>
 <p>So we know which IP our container is on.. and we know we exposed port 8000.</p>
 <p>LETS QUERY OUR WEBSERVER!</p>
 <p>i'm using the <code>curl</code> command from our play-with-docker terminal. It's a CLI based web browser.. It will do for what we need!</p>
@@ -73,7 +73,7 @@ docker run &lt;your new container id&gt; &amp;
 </div></code></code></pre>
 <p>By default the webserver will serve the root directory of the container...</p>
 <h3 id="success">Success!</h3>
-<p><img src="file:////posts/files/docker-101/assets/images/success.png" alt="Success"></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/04-docker/assets/images/success.png?raw=true" alt="Success"></p>
 <p>And success! We see our containerised webserver giving us the directory listing back.</p>
 <h2 id="extra-credit">Extra credit?</h2>
 <p>You know how to <code>ADD</code> files to our docker build process, so if you wrote a HTML page called <code>index.html</code> and added it to the Dockerfile, guess what new webserver container would serve instead of the directory listing?</p>

@@ -40,8 +40,8 @@
 <p>As hello-world came from the public repository, we can go and inspect it to work that out.</p>
 <p>Going to <a href="">https://hub.docker.com/_/hello-world/</a> provides a website with details of the hello-world docker image.</p>
 <p>This doesn't give you much more than documentation, but theres a very important link on this page to the <em>Dockerfile</em></p>
-<p><img src="file:////posts/files/docker-101/assets/images/dockerhub1.png" alt="docker hub website"></p>
-<p><img src="file:////posts/files/docker-101/assets/images/dockerfile1.png" alt="Dockerfile"></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/04-docker/assets/images/dockerhub1.png?raw=true" alt="docker hub website"></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/04-docker/assets/images/dockerfile1.png?raw=true" alt="Dockerfile"></p>
 <h1 id="the-dockerfile">The Dockerfile</h1>
 <p>The Dockerfile is how everyone builds docker images, from something as simple as hello-world, to full applications.</p>
 <p>It's a simple text file in which you describe what you want in your container image, docker then takes this and builds you an image based on what you have defined.</p>
@@ -49,7 +49,7 @@
 <p>This tells docker to process the docker file in the current directory.</p>
 <p>Once built, the author of hello-world had also 'pushed' that image to the public docker hub, so that it was consumable by everyone.</p>
 <p>Usually, a Dockerfile is stored with your application code in source control.</p>
-<p><img src="file:////posts/files/docker-101/assets/images/hello-codebase.png" alt="hello-world codebase"></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/04-docker/assets/images/hello-codebase.png?raw=true" alt="hello-world codebase"></p>
 <h1 id="hello-world-dockerfile">Hello-world Dockerfile</h1>
 <p>This is the hello-world Dockerfile:</p>
 <pre><code><code><div>FROM scratch
@@ -71,7 +71,7 @@ CMD [&quot;/hello&quot;]
 <p>in the hello-world example, the compiled binary ‘hello’ was the only thing in the container, it works because it needed no dependencies. Putting it in a container isolated it from the rest of the system and made it easily shareable with other developers who can simply run <code>docker run hello-world</code>.</p>
 <p>But what if we wanted to run something more complex like NGINX (a webserver) as part of our containerized application? There will be a lot more dependancies, system libraries needed etc.</p>
 <p>ldd shows us linked libraries (dependancies) needed by a C application; we can see NGINX has dependancies:</p>
-<p><img src="file:////posts/files/docker-101/assets/images/ldd1.png" alt="NGINX dependancies"></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/04-docker/assets/images/ldd1.png?raw=true" alt="NGINX dependancies"></p>
 <p>In the Sever / VM model, these dependencies would be installed as extra packages via your package management tool (APT, YUM, etc) however we have a blank container, theres no apt, yum tools..</p>
 <h2 id="full-os-userspace-containers">Full OS userspace containers</h2>
 <p>A container can have a whole Linux userspace within it to build on (such as Ubuntu) in order to make complex software installs easier within containers.</p>
@@ -83,7 +83,7 @@ CMD [&quot;/hello&quot;]
 <pre><code><code><div>docker run -ti ubuntu
 </div></code></code></pre>
 <p>This run's an ubuntu container for us, notice it drops us into the ubuntu BASH shell within the container.</p>
-<p><img src="file:////posts/files/docker-101/assets/images/ubuntu1.png" alt="Ubuntu shell"></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/04-docker/assets/images/ubuntu1.png?raw=true" alt="Ubuntu shell"></p>
 <p>(This is what <code>-ti</code> is for, it tells docker we want to interact on the terminal with the container.)</p>
 <h1 id="testing-isolation">Testing Isolation.</h1>
 <p>In our container, if we create a file in root (/), notice that when we exit the container, the file doesnt exist on the VM outside the container.</p>
@@ -116,7 +116,7 @@ CMD [&quot;/bin/bash&quot;]
 <p>The dockerfile gets a whole ubuntu userspace (all the tools, binaries, libraries) from a compressed .tar file and extracts it to the root of the image.</p>
 <p>Why did the ubuntu container give us a BASH shell when we ran it? Because thats the CMD specified in the Dockerfile!</p>
 <p>Again the Dockerfile is in the same source code repository as the needed files (such as the .tar.gz archive)</p>
-<p><img src="file:////posts/files/docker-101/assets/images/ubunturepo1.png" alt="Ubuntu Repo for Docker Build"></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/04-docker/assets/images/ubunturepo1.png?raw=true" alt="Ubuntu Repo for Docker Build"></p>
 <p>I think we know enough now to build our OWN docker container with a dockerfile... Click next to get going!</p>
 
     </body>

@@ -54,7 +54,7 @@ Tell docker to build a new image using the Dockerfile</p>
 <p>You'll then see Docker work away building the Ubuntu image.</p>
 <p>Once complete, you will see a <code>successfully built image &lt;ID&gt;</code> message, this ID can be used to refer to the new image we just built, it's called the <em>IMAGE ID</em></p>
 <p>If we forget the ID for our images, we can run the <code>docker images</code> command. This allows you to see all the docker images on your system, including the one you have just built and also the ones you have previously downloaded from hub.</p>
-<p><img src="file:////posts/files/docker-101/assets/images/images1.png" alt="Docker Images"></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/04-docker/assets/images/images1.png?raw=true" alt="Docker Images"></p>
 <p>The new image we have just built will say <code>&lt;none&gt;</code> in the REPOSITORY column of the table above. We can see our same IMAGE ID in the <code>IMAGE ID</code> column.</p>
 <p>Run your newly created docker image! You'll see it behaves exactly the same as the ubuntu image we grabbed from the hub <em>as it was built with the same Dockerfile.</em></p>
 <pre><code><code><div>docker run -ti &lt;your image ID&gt;
@@ -63,7 +63,7 @@ Tell docker to build a new image using the Dockerfile</p>
 <h1 id="building-our-custom-cisco-learning-labs-container">Building our Custom Cisco Learning Labs Container!</h1>
 <p>Before we continue. Type <code>exit</code> to quit out of the previous container and go back to your home directory by typing <code>cd ~</code>.</p>
 <p>I'm currently sat here at Cisco LIVE! Europe 2017 in the wonderful city of Berlin.. So lets have our custom app say that!</p>
-<p><img src="file:////posts/files/docker-101/assets/images/hellocustom1.png" alt="Custom Docker Output"></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/04-docker/assets/images/hellocustom1.png?raw=true" alt="Custom Docker Output"></p>
 <p>To do this we will</p>
 <ul>
 <li>Create a new Python script.</li>
@@ -100,7 +100,7 @@ CMD [&quot;/hellodevnet.py&quot;]
 <p>And thats all there is to it. Lets build our new app container!</p>
 <pre><code><code><div>docker build .
 </div></code></code></pre>
-<p><img src="file:////posts/files/docker-101/assets/images/dockerbuildcustom.png" alt="Custom Docker Build"></p>
+<p><img src="https://github.com/kiskander/LC-hcloud-proposal/blob/main/04-docker/assets/images/dockerbuildcustom.png?raw=true" alt="Custom Docker Build"></p>
 <p>Run your new Container! You should see our app run and give you the hello message.</p>
 <h2 id="congratulations-youve-just-built-and-run-a-custom-docker-image">Congratulations, you've just built and run a custom docker image!</h2>
 <p>So far though, all our output has been on the command line. Apps that output hello aren't that useful.</p>
